@@ -1,0 +1,53 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css');
+
+#main {
+  margin-top: 30px;
+  width: 500px;
+}
+
+.layout {
+  display: flex;
+}
+
+.layout .container .account-selector {
+  max-width: 320px;
+  margin: 32px 0;
+}
+
+.layout .container .account-selector label {
+  margin-bottom: 4px;
+}
+
+#sidebar {
+  height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+#sidebar .nav-link i {
+  margin-right: 8px;
+}
+
+#sidebar #logo {
+  width: 180px;
+  margin: 8px 0;
+}
+
+#productList {
+  margin: 24px 0;
+}
+
+.card {
+  margin: 16px 8px;
+  max-width: 500px;
+}
+
+.card button,
+.card input {
+  margin-right: 8px;
+}
+
+button[id*='hire-button-dev'] {
+  margin-bottom: 16px;
+}
